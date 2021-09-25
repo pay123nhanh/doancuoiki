@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/androidapp/cuoiki/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/androidapp/doancuoiki/app/src/main/res/layout/activity_create_account.xml" value="0.4" />
         <entry key="..\:/androidapp/doancuoiki/app/src/main/res/layout/activity_dangnhap.xml" value="0.176" />
         <entry key="..\:/androidapp/doancuoiki/app/src/main/res/layout/activity_dashboard.xml" value="0.1598731884057971" />
         <entry key="..\:/androidapp/doancuoiki/app/src/main/res/layout/activity_login.xml" value="0.2" />
