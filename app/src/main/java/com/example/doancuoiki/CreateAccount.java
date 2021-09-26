@@ -40,7 +40,7 @@ public class CreateAccount extends AppCompatActivity {
             String phoneNo = regphoneNo.getEditText().getText().toString();
             String password = regpassword.getEditText().getText().toString();
 
-            usersHelper helper =new usersHelper(name,username,email,phoneNo,password    );
+            usersHelper helper = new usersHelper(name,username,email,phoneNo,password    );
 
             reference.child(phoneNo).setValue(helper);
         }
