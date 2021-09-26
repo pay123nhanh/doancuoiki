@@ -27,13 +27,23 @@ public class dangnhap extends AppCompatActivity {
 
         //Hooks
         CallCreate = findViewById(R.id.CallCreate);
+        //CallLogin = findViewById(R.id.CallLogin);
 
         CallCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(dangnhap.this, CreateAccount.class);
+                Intent intent = new Intent(dangnhap.this,CreateAccount.class);
                 startActivity(intent);
             }
-        });
+         });
+
+       // CallLogin.setOnClickListener(new View.OnClickListener() {
+        //    @Override
+        //    public void onClick(View view) {
+       //         Intent intent = new Intent(dangnhap.this, userinfo.class);
+      //          startActivity(intent);
+      //      }
+    //    });
+
     };
 };

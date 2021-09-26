@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Doancuoiki">
         <activity
+            android:name=".userinfo"
+            android:exported="true" />
+        <activity
             android:name=".CreateAccount"
             android:exported="true" />
         <activity
