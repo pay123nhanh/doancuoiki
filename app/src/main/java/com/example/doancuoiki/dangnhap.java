@@ -17,7 +17,7 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class dangnhap extends AppCompatActivity {
 
-    Button CallCreate;
+    Button CallCreate,CallLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class dangnhap extends AppCompatActivity {
 
         //Hooks
         CallCreate = findViewById(R.id.CallCreate);
-        //CallLogin = findViewById(R.id.CallLogin);
+        CallLogin = findViewById(R.id.CallLogin);
 
         CallCreate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,13 +37,13 @@ public class dangnhap extends AppCompatActivity {
             }
          });
 
-       // CallLogin.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-        //    public void onClick(View view) {
-       //         Intent intent = new Intent(dangnhap.this, userinfo.class);
-      //          startActivity(intent);
-      //      }
-    //    });
+       CallLogin.setOnClickListener(new View.OnClickListener() {
+          @Override
+            public void onClick(View view) {
+            Intent intent = new Intent(dangnhap.this, userinfo.class);
+                startActivity(intent);
+            }
+       });
 
     };
 };
