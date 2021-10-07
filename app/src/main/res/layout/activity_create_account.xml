@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".CreateAccount"
     android:orientation="vertical"
-    android:background="#fff"
-    android:padding="20dp">
+    android:background="#fff">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -47,7 +46,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/name"
+            android:id="@+id/regname"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -62,7 +61,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/username"
+            android:id="@+id/regusername"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +78,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/email"
+            android:id="@+id/regemail"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,7 +93,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/phoneNo"
+            android:id="@+id/regphoneNo"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,7 +108,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/password"
+            android:id="@+id/regpassword"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -140,8 +139,7 @@
         android:layout_height="wrap_content"
         android:background="#00000000"
         android:text="Already have an account?"
-        android:textColor="@color/black"
-        />
+        android:textColor="@color/black"/>
     </LinearLayout>
 
 </ScrollView>

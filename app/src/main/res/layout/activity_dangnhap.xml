@@ -12,8 +12,7 @@
         android:layout_width="185dp"
         android:layout_height="150dp"
         android:src="@drawable/logo"
-        android:transitionName="logo_image"
-        />
+        android:transitionName="logo_image"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -23,8 +22,7 @@
         android:text="HELLO THERE, WELCOME BACK!"
         android:textSize="48sp"
         android:textColor="@color/black"
-        android:transitionName="logo_text"
-        />
+        android:transitionName="logo_text"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -45,8 +43,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
-            android:transitionName="username_tran">
+            android:hint="Username">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -61,8 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:passwordToggleEnabled="true"
-            android:hint="Password"
-            android:transitionName="password_tran">
+            android:hint="Password">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -79,8 +75,7 @@
             android:elevation="0dp"
             android:text="Forget Password?"
             android:textColor="@color/black"
-            android:layout_margin="5dp"
-            android:transitionName="forget_tran"/>
+            android:layout_margin="5dp"/>
 
         <Button
             android:id="@+id/CallLogin"
@@ -90,11 +85,10 @@
             android:background="#000"
             android:textColor="#fff"
             android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:transitionName="login_tran"/>
+            android:layout_marginBottom="5dp"/>
 
         <Button
-            android:id="@+id/CallCreate"
+            android:id="@+id/callcreate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -102,8 +96,7 @@
             android:elevation="0dp"
             android:text="Create Account"
             android:textColor="@color/black"
-            android:layout_margin="5dp"
-            android:transitionName="create_tran"/>
+            android:layout_margin="5dp"/>
 
     </LinearLayout>
 
